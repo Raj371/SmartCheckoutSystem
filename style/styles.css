@@ -1,0 +1,88 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f0f2f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkout-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.checkout {
+  flex: 1;
+  min-width: 200px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #007bff33;
+}
+
+.checkout h2 {
+  text-align: center;
+  color: #007bff;
+}
+
+.queue {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.queue li {
+  background: #e2e6ea;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.queue li button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 3px 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
